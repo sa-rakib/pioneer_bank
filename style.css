@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  padding: 16px;
+}
+
+#login-area{
+  text-align: center;
+}
+
+
+#submit-area {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 60px;
+  padding: 40px;
+  transition: 0.3s;
+  border-radius: 3%;
+  text-align: center;
+}
+
+#submit-area:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#transaction-area{
+  display: none;
+}
+
+.depo-with-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.depo-with-area .card-shaw-depo{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 10px;
+  padding: 20px;
+  transition: 0.3s;
+  border-radius: 3%;
+}
+
+.card-shaw-with{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 10px;
+  padding: 20px;
+  transition: 0.3s;
+  border-radius: 3%;
+}
